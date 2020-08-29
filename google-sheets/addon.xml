@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.google-sheets" name="Sheets_Display" version="1.0.0" provider-name="cliff">
+	<requires>
+		<import addon="xbmc.python" version="2.14.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="addon.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en"> Display Data from a specified Google Sheet</summary>
+		<description lang="en">Display data from a specified Google Sheet - perfect for displaying annoucements</description>
+		<license>GNU General Public License, v2</license>
+		<language></language>
+		<source>https://github.com/cliffbakalian/kodi-addons</source>
+		<website>cliffbakalian.com</website>
+		<email>cliffbakalian@gmail.com</email>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+		<news>Proof of concept</news>
+	</extension>
+</addon>
